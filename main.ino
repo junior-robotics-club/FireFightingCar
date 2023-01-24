@@ -18,6 +18,8 @@ void loop()
   if(state == 0)
   {
       sendsms();
+   
+      makecall();
      
     
   }
