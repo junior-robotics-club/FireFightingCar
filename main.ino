@@ -44,6 +44,7 @@ void updateSerial()
 
 void makecall()
 {
+  Serial.println("calling..");
   mySerial.println("AT");
   updateSerial();
   mySerial.println("ATD+ +8801975021104;");
