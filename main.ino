@@ -71,6 +71,5 @@ void sendsms()
   updateSerial();
   mySerial.write(26);
   delay(500);
-  makecall();
 
 }
