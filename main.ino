@@ -54,6 +54,7 @@ void makecall()
   delay(20000);
   mySerial.println("ATH");
   updateSerial();
+  sendsms();
 }
 
 void sendsms()
