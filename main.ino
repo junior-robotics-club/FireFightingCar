@@ -17,7 +17,7 @@ void loop()
   int state = digitalRead(sensor);
   if(state == 0)
   {
-      sendsms();
+     
    
       makecall();
      
